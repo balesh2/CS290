@@ -1,419 +1,148 @@
 0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
-52   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts at interval 0
-69   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts/solr.xml
-175  [main] INFO  org.eclipse.jetty.webapp.WebInfConfiguration  – Extract jar:file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/webapps/solr.war!/ to /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr-webapp/webapp
-3150 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
-3216 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
-3243 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
-3244 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr
-3245 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/'
-3249 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
-3249 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
-3250 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
-3251 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
-3452 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/solr.xml
-3643 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 939563742
-3644 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/]
-3648 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib
-3649 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
-3650 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
-3651 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
-3651 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
-3684 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
-3685 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: http://
-3685 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
-3686 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
-3686 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
-3686 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
-3687 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
-3687 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
-3688 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
-4093 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
-4095 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
-4189 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core-test' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test
-4189 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core
-4190 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/'
-4191 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/'
-4225 [coreLoadExecutor-3-thread-2] ERROR org.apache.solr.core.CoreContainer  – Failed to load file /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/solrconfig.xml
-4229 [coreLoadExecutor-3-thread-2] ERROR org.apache.solr.core.CoreContainer  – Unable to create core: blacklight-core-test
-org.apache.solr.common.SolrException: Could not load config file /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/solrconfig.xml
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/conf'
-	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
-	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
-	at org.apache.solr.core.Config.<init>(Config.java:116)
-	at org.apache.solr.core.Config.<init>(Config.java:86)
-	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
-	... 9 more
-4236 [coreLoadExecutor-3-thread-2] ERROR org.apache.solr.core.CoreContainer  – null:org.apache.solr.common.SolrException: Unable to create core: blacklight-core-test
-	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Could not load config file /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/solrconfig.xml
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:525)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	... 8 more
-Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/conf'
-	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
-	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
-	at org.apache.solr.core.Config.<init>(Config.java:116)
-	at org.apache.solr.core.Config.<init>(Config.java:86)
-	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:129)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:522)
-	... 9 more
-
-4299 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
-4300 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
-4301 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
-4301 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
-4302 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
-4303 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
-4304 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
-4304 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
-4305 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
-4512 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_41
-4689 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
-4698 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
-4797 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=Blacklight Demo Index
-5384 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
-5387 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
-5389 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
-5625 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.NRTCachingDirectoryFactory
-5638 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/
-5639 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
-5661 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data
-5662 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index/
-5662 [coreLoadExecutor-3-thread-1] WARN  org.apache.solr.core.SolrCore  – [blacklight-core] Solr index directory '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index' doesn't exist. Creating new index...
-5679 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index
-5787 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
-	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2897ac05; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
-5788 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
-5915 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
-5938 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
-5939 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
-5939 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /query: solr.SearchHandler
-5944 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
-5950 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
-5969 [coreLoadExecutor-3-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
-5969 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: solr.JsonUpdateRequestHandler
-5972 [coreLoadExecutor-3-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
-5973 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: solr.CSVRequestHandler
-5973 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
-5974 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/extract: solr.extraction.ExtractingRequestHandler
-5975 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-5975 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
-5975 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
-5976 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/document: solr.DocumentAnalysisRequestHandler
-5980 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
-5983 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /debug/dump: solr.DumpRequestHandler
-5999 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
-6003 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: solr.admin.AdminHandlers
-6029 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
-6034 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
-6035 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
-6056 [coreLoadExecutor-3-thread-1] ERROR org.apache.solr.update.UpdateLog  – Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-6057 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core]  CLOSING SolrCore org.apache.solr.core.SolrCore@68d2ef8a
-6058 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.update.SolrCoreState  – Closing SolrCoreState
-6058 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.update.DefaultSolrCoreState  – SolrCoreState ref count has reached 0 - closing IndexWriter
-6059 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Closing main searcher on request.
-6060 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
-6062 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data [CachedDir<<refCount=0;path=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data;done=false>>]
-6062 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data
-6063 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – looking to close /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index [CachedDir<<refCount=0;path=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index;done=false>>]
-6063 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – Closing directory: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index
-6064 [coreLoadExecutor-3-thread-1] ERROR org.apache.solr.core.CoreContainer  – Unable to create core: blacklight-core
-org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:834)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:267)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	... 11 more
-Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	... 21 more
-6066 [coreLoadExecutor-3-thread-1] ERROR org.apache.solr.core.CoreContainer  – null:org.apache.solr.common.SolrException: Unable to create core: blacklight-core
-	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:977)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:601)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:834)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	... 8 more
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:267)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	... 11 more
-Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	... 21 more
-
-6068 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty
-6069 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
-6126 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
-20055 [qtp1752785836-12] ERROR org.apache.solr.servlet.SolrDispatchFilter  – null:org.apache.solr.common.SolrException: SolrCore 'blacklight-core' is not available due to init failure: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:289)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
-	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
-	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
-	at org.eclipse.jetty.server.Server.handle(Server.java:368)
-	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
-	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
-	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
-	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
-	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:834)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	... 1 more
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:267)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	... 11 more
-Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	... 21 more
-
-1502616 [qtp1752785836-11] ERROR org.apache.solr.servlet.SolrDispatchFilter  – null:org.apache.solr.common.SolrException: SolrCore 'blacklight-core' is not available due to init failure: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:289)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
-	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
-	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
-	at org.eclipse.jetty.server.Server.handle(Server.java:368)
-	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
-	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
-	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
-	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
-	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:834)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	... 1 more
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:267)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	... 11 more
-Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	... 21 more
-
-1508684 [qtp1752785836-12] ERROR org.apache.solr.servlet.SolrDispatchFilter  – null:org.apache.solr.common.SolrException: SolrCore 'blacklight-core' is not available due to init failure: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:818)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:289)
-	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:197)
-	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
-	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
-	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
-	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
-	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
-	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
-	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
-	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
-	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
-	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
-	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
-	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
-	at org.eclipse.jetty.server.Server.handle(Server.java:368)
-	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
-	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
-	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
-	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
-	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
-	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
-	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:834)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:625)
-	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:557)
-	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:592)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:271)
-	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:263)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
-	... 1 more
-Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:267)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:134)
-	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
-	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:97)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:533)
-	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:603)
-	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:811)
-	... 11 more
-Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" stored="true" and multiValued="false" (_version_ does not exist)
-	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:56)
-	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:82)
-	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:264)
-	... 21 more
-
+45   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts at interval 0
+55   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts/solr.xml
+2099 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2167 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+2198 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+2199 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr
+2201 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/'
+2205 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
+2206 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
+2207 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
+2208 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
+2451 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/solr.xml
+2633 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 661207699
+2634 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/]
+2635 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib
+2639 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
+2640 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
+2640 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
+2641 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
+2672 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+2672 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: http://
+2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+2674 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+2674 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+2675 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+2675 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+3039 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+3041 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+3132 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core
+3132 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core-test' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test
+3133 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/'
+3133 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/'
+3231 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+3231 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+3232 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
+3232 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
+3232 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
+3233 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
+3233 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
+3234 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
+3234 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
+3235 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
+3235 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
+3235 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
+3236 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
+3236 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
+3236 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
+3237 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
+3237 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
+3238 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
+3486 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
+3486 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
+3672 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+3673 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+3702 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
+3702 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
+3813 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=Blacklight Demo Index
+3818 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core-test] Schema name=Blacklight Demo Index
+4361 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+4361 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+4364 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+4364 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+4366 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+4366 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+4609 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+4609 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+4630 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/
+4630 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/
+4631 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
+4631 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core-test
+4652 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data
+4652 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data
+4653 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index/
+4653 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index/
+4654 [coreLoadExecutor-3-thread-2] WARN  org.apache.solr.core.SolrCore  – [blacklight-core-test] Solr index directory '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index' doesn't exist. Creating new index...
+4654 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index
+4667 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index
+4767 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index,segFN=segments_1,generation=1}
+4769 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+4835 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+4835 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+4842 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+4842 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+4843 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+4843 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+4850 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+4851 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+4851 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+4858 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+4858 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+4859 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+4859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+4865 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+4865 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+4878 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
+4878 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
+4879 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
+4879 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
+4880 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
+4880 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
+4908 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4908 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4928 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+4928 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+4929 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+4929 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+4938 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index,segFN=segments_1,generation=1}
+4939 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+4938 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index,segFN=segments_1,generation=1}
+4940 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+4951 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@3ba7b45b main
+4951 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@7f31e0f5 main
+4959 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+4959 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+4970 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
+4972 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
+4974 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
+4976 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
+4977 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+4990 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
+5004 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core
+5004 [searcherExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@7f31e0f5 main{StandardDirectoryReader(segments_1:1:nrt)}
+5016 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
+5042 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
+5069 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
+5070 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+5072 [searcherExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Registered new searcher Searcher@3ba7b45b main{StandardDirectoryReader(segments_1:1:nrt)}
+5072 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core-test
+5075 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty
+5076 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+5121 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+22729 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=pub_date,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22730 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_topic_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22731 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=language_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22731 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_1letter_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22732 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_geo_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22732 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_era_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+22737 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=145 
+95226 [qtp1752785836-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=8 
