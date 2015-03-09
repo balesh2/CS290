@@ -262,7 +262,7 @@ DEPENDENCIES
   jettywrapper (~> 1.7)
   jquery-rails
   rails (= 4.1.1)
-  rsolr (~> 1.0.6)
+  rsolr (~> 1.0.11)
   rspec-rails (~> 2.14.0)
   sass-rails (~> 4.0.3)
   simple_form (= 3.1.0.rc2)

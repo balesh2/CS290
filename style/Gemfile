@@ -30,4 +30,4 @@ gem "jettywrapper", "~> 1.7"
 gem "devise"
 gem "devise-guests", "~> 0.3"
 
-gem "rsolr", "~> 1.0.6"
+gem "rsolr", "~> 1.0.11"

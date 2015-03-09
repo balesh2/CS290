@@ -5,6 +5,7 @@ namespace :jetty do
     sleep(2)
     FileUtils.rm_rf "jetty/solr/blacklight-core-test", :verbose => true
     FileUtils.mkdir_p "jetty/solr/blacklight-core-test", :verbose => true
+    FileUtils.cp_r "jetty/solr/blacklight-core/.", "jetty/solr/blacklight-core-test/", :verbose => true
     FileUtils.rm_rf "jetty/solr/blacklight-core-test/data", :verbose => true
     FileUtils.cp "config/solr/solr.xml", "jetty/solr", :verbose => true
     FileList['config/solr/conf/*'].each do |f|
