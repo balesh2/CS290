@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150310211602) do
+ActiveRecord::Schema.define(version: 20150310221143) do
+
+  create_table "admins", force: true do |t|
+    t.string "email"
+  end
 
   create_table "bookmarks", force: true do |t|
     t.integer  "user_id",       null: false
@@ -78,6 +82,7 @@ ActiveRecord::Schema.define(version: 20150310211602) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.boolean  "admin", default: false, null: false
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

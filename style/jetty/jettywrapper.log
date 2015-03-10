@@ -1,152 +1,180 @@
 0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
-45   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts at interval 0
-55   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts/solr.xml
-2099 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
-2167 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
-2198 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
-2199 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr
-2201 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/'
-2205 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
-2206 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
-2207 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
-2208 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
-2451 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/solr.xml
-2633 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 661207699
-2634 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/]
-2635 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib
-2639 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
-2640 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
-2640 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
-2641 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
-2672 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
-2672 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: http://
-2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
-2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
-2673 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
-2674 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
-2674 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
-2675 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
-2675 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
-3039 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
-3041 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
-3132 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core
-3132 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core-test' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test
-3133 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/'
-3133 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/'
-3231 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
-3231 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
-3232 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
-3232 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
-3232 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
-3233 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
-3233 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
-3234 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
-3234 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
-3235 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
-3235 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
-3235 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
-3236 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
-3236 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
-3236 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
-3237 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
-3237 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
-3238 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
-3486 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
-3486 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
-3672 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
-3673 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
-3702 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
-3702 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
-3813 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=Blacklight Demo Index
-3818 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core-test] Schema name=Blacklight Demo Index
-4361 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
-4361 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
-4364 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
-4364 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
-4366 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
-4366 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
-4609 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
-4609 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
-4630 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/
-4630 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/
-4631 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
-4631 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core-test
-4652 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data
-4652 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data
-4653 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index/
-4653 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index/
-4654 [coreLoadExecutor-3-thread-2] WARN  org.apache.solr.core.SolrCore  – [blacklight-core-test] Solr index directory '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index' doesn't exist. Creating new index...
-4654 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index
-4667 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index
-4767 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
+18   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts at interval 0
+21   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/contexts/solr.xml
+854  [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+880  [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+892  [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+892  [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr
+893  [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/'
+894  [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
+894  [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
+895  [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
+895  [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
+983  [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/solr.xml
+1058 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 1151092617
+1058 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/]
+1058 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib
+1060 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-analysis-extras-4.6.0.jar' to classloader
+1060 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/' to classloader
+1060 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-clustering-4.6.0.jar' to classloader
+1061 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/solr-langid-4.6.0.jar' to classloader
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: http://
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1073 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1074 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1074 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1074 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1218 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1219 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1253 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core
+1253 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core-test' using instanceDir: /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test
+1254 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/'
+1254 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/'
+1290 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+1290 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+1290 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
+1290 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
+1290 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
+1290 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-49.1.jar' to classloader
+1291 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
+1291 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
+1291 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
+1291 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
+1291 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
+1291 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.6.0.jar' to classloader
+1291 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
+1292 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.6.0.jar' to classloader
+1292 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
+1292 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.6.0.jar' to classloader
+1292 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
+1292 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.6.0.jar' to classloader
+1380 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
+1380 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: LUCENE_40
+1445 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1445 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1449 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
+1449 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from schema.xml
+1496 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core-test] Schema name=Blacklight Demo Index
+1507 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=Blacklight Demo Index
+1693 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1693 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+1694 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1697 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+1698 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+1698 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+1770 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1770 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+1776 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/
+1776 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/, dataDir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/
+1777 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
+1776 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core-test
+1785 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data
+1785 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data
+1785 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index/
+1786 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index/
+1786 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index
+1786 [coreLoadExecutor-3-thread-2] WARN  org.apache.solr.core.SolrCore  – [blacklight-core-test] Solr index directory '/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index' doesn't exist. Creating new index...
+1791 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index
+1853 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1856 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1856 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
 	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index,segFN=segments_1,generation=1}
-4769 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
-4835 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
-4835 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
-4842 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
-4842 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
-4843 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
-4843 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
-4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
-4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-4850 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
-4851 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-4850 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
-4851 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
-4858 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
-4858 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
-4859 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
-4859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
-4865 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
-4865 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
-4878 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
-4878 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
-4879 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
-4879 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
-4880 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
-4880 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
-4908 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
-4908 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
-4928 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
-4928 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
-4929 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
-4929 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
-4938 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+1857 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1857 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1858 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+1858 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1859 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+1859 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+1859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+1859 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+1860 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+1861 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1861 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+1862 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1862 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+1863 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1863 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+1867 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
+1867 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
+1868 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
+1868 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
+1868 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
+1868 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
+1878 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1878 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+1885 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1885 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+1886 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1886 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+1889 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index,segFN=segments_1,generation=1}
+1889 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
 	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core/data/index,segFN=segments_1,generation=1}
-4939 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
-4938 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
-	commit{dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty/solr/blacklight-core-test/data/index,segFN=segments_1,generation=1}
-4940 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
-4951 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@3ba7b45b main
-4951 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@7f31e0f5 main
-4959 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
-4959 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
-4970 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
-4972 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
-4974 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
-4976 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
-4977 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
-4990 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
-5004 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core
-5004 [searcherExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@7f31e0f5 main{StandardDirectoryReader(segments_1:1:nrt)}
-5016 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
-5042 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
-5069 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
-5070 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
-5072 [searcherExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Registered new searcher Searcher@3ba7b45b main{StandardDirectoryReader(segments_1:1:nrt)}
-5072 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core-test
-5075 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty
-5076 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
-5121 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
-22729 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=pub_date,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22730 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_topic_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22731 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=language_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22731 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_1letter_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22732 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_geo_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22732 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_era_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
-22737 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=145 
-95226 [qtp1752785836-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=8 
-1278288 [qtp1752785836-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=7 
-1342527 [qtp1752785836-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=7 
-1351134 [qtp1752785836-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=7 
-73152756 [qtp1752785836-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=17 
+1890 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1890 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+1894 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@7178b9e6 main
+1894 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@2cf4e53d main
+1897 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+1897 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+1904 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
+1905 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
+1906 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
+1907 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
+1907 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+1922 [coreLoadExecutor-3-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core
+1922 [searcherExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@7178b9e6 main{StandardDirectoryReader(segments_1:1:nrt)}
+1923 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
+1946 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
+1969 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
+1991 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
+1991 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+1994 [searcherExecutor-4-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core-test] Registered new searcher Searcher@2cf4e53d main{StandardDirectoryReader(segments_1:1:nrt)}
+1994 [coreLoadExecutor-3-thread-2] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core-test
+1997 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/helena/Documents/School/02/cs290/rubyProject/style/jetty
+1997 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+2025 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+160406 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_1letter_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160407 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_alpha_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160407 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_b4cutter_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160408 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=language_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160408 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=pub_date,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160408 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_era_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160408 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_geo_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160408 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_topic_facet,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+160410 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=43 
+160421 [qtp2038359753-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+243146 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=4 
+243154 [qtp2038359753-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=3 
+282921 [qtp2038359753-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+282927 [qtp2038359753-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+300569 [qtp2038359753-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+300574 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+418041 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qf=title_text&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=4 
+418053 [qtp2038359753-18] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qf=title_text&qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=3 
+423342 [qtp2038359753-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+423349 [qtp2038359753-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+966916 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+966923 [qtp2038359753-18] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+1035697 [qtp2038359753-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+1035703 [qtp2038359753-19] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+1049199 [qtp2038359753-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+1049209 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=3 
+1072354 [qtp2038359753-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+1072360 [qtp2038359753-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+1345053 [qtp2038359753-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+1345058 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+1367292 [qtp2038359753-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+1367297 [qtp2038359753-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+1639407 [qtp2038359753-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+1639422 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+1657580 [qtp2038359753-13] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+1657586 [qtp2038359753-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+1733547 [qtp2038359753-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+1733561 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+1749262 [qtp2038359753-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+1749268 [qtp2038359753-19] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 

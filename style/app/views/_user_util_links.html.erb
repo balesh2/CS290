@@ -4,7 +4,7 @@
     <%= link_to "About Us", about_us_path %>
   </li>
   <li>
-    <% if current_user && current_model.admin? %>
+    <% if current_user && current_user#.admin? %>
       <%= link_to "Admin Panel", admin_index_path %>
     <% end %>
   </li>
