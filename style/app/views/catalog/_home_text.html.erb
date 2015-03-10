@@ -22,15 +22,8 @@
       <div class="row">
         <div class="col-xs-12"><h4>This webpage displays postings of photos of street fashion both on a map, and in list form.</h4></div>
       </div>
-      <div class="row" id="tabstrip">
-        <div class="col-xs-12">
-          <button id="map-view" class="tab-strip-buttons" onclick="function(){$('#tab-strip-content').load('./mapView.html')}();">Map</button>
-        <button id="list-view" class="tab-strip-buttons" onclick="function(){$('#tab-strip-content').load('./listView.html')();}">List</button>
-          <div class="row">
-            <div class="col-xs-12" id="map">
-            </div>
-          </div>
-        </div>
+      <div id="documents" class="map">
+        <%= render "map" %>
       </div>
     </div>
     <div class="col-xs-1"></div>
