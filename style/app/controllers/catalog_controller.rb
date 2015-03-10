@@ -14,36 +14,36 @@ class CatalogController < ApplicationController
 
     config.spell_max = 5
     config.add_facet_fields_to_solr_request!
-  end
 
-  #Index Configuration
-  #config.index.title_field = "title_ss"
-  config.add_index_field 'user_ss', :label => 'Creator'
-  config.add_index_field 'photo_ss', :label => 'Photo'
-  #Facet Configuration
-  config.add_facet_field 'title_ss', :label => 'Post Title', :limit => 20
-  config.add_facet_field 'user_ss', :label => 'Creator', :limit => 20
-  #Map Configuration
-  config.view.maps.type = "placename_coord"
-  config.view.maps.bbox_field = "place_bbox"
-  config.view.maps.placename_coords_field = "coords_sms"
-  config.view.maps.tileurl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-  config.view.maps.attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
-  config.view.maps.placename_coord_delimiter = '-|-'
-  config.view.maps.minzoom = 16
-  config.view.maps.maxzoom = 17
-  config.view.maps.default = true
-  #Search Configuration
-  config.add_search_field('title') do |field|
-    field.solr_parameters = { :qf => "title_text" }
+    #Index Configuration
+    #config.index.title_field = "title_ss"
+    config.add_index_field 'user_ss', :label => 'Creator'
+    config.add_index_field 'photo_ss', :label => 'Photo'
+    #Facet Configuration
+    config.add_facet_field 'title_ss', :label => 'Post Title', :limit => 20
+    config.add_facet_field 'user_ss', :label => 'Creator', :limit => 20
+    #Map Configuration
+    config.view.maps.type = "placename_coord"
+    config.view.maps.bbox_field = "place_bbox"
+    config.view.maps.placename_coords_field = "coords_sms"
+    config.view.maps.tileurl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    config.view.maps.attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+    config.view.maps.placename_coord_delimiter = '-|-'
+    config.view.maps.minzoom = 16
+    config.view.maps.maxzoom = 17
+    config.view.maps.default = true
+    #Search Configuration
+    config.add_search_field('title') do |field|
+      field.solr_parameters = { :qf => "title_text" }
+    end
+    config.add_search_field('creator') do |field|
+      field.solr_parameters = { :qf => "user_text" }
+    end
+    #Show Configuration
+    config.add_show_field 'user_ss', :label => "Creator"
+    config.add_show_field 'description_ss', :label => "Description"
+    config.add_show_field 'photo_ss', :label => "Photo"
   end
-  config.add_search_field('creator') do |field|
-    field.solr_parameters = { :qf => "user_text" }
-  end
-  #Show Configuration
-  config.add_show_field 'user_ss', :label => "Creator"
-  config.add_show_field 'description_ss', :label => "Description"
-  config.add_show_field 'photo_ss', :label => "Photo"
 
   def show
     super
