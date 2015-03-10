@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Street Fashion Map</title>
+<link href="stylesheet.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="jquery.js"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-10" id="map-back">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="title-txt">Welcome to Street Fashion Map</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12"><h4>This webpage displays postings of photos of street fashion both on a map, and in list form.</h4></div>
+      </div>
+      <div class="row" id="tabstrip">
+        <div class="col-xs-12">
+          <button id="map-view" class="tab-strip-buttons" onclick="function(){$('#tab-strip-content').load('./mapView.html')}();">Map</button>
+        <button id="list-view" class="tab-strip-buttons" onclick="function(){$('#tab-strip-content').load('./listView.html')();}">List</button>
+          <div class="row">
+            <div class="col-xs-12" id="map">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-1"></div>
+  </body>
+  </html>
