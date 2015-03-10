@@ -20,9 +20,9 @@ class CatalogController < ApplicationController
     config.add_index_field 'title_vern_display', :label => "Title: "
     config.add_index_field 'username_ss', :label => 'Creator'
     config.add_index_field 'photo_ss', :label => 'Photo'
-    #Facet Configuration
-    config.add_facet_field 'title', :label => 'Post Title', :limit => 20
-    config.add_facet_field 'username', :label => 'Creator', :limit => 20
+    ##Facet Configuration
+    #config.add_facet_field 'title', :label => 'Post Title', :limit => 20
+    #config.add_facet_field 'username', :label => 'Creator', :limit => 20
     #Map Configuration
     config.view.maps.type = "placename_coord"
     config.view.maps.bbox_field = "place_bbox"
