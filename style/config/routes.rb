@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :models
   blacklight_for :catalog
   root to: "catalog#index"
 
