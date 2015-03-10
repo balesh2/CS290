@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150308002558) do
+ActiveRecord::Schema.define(version: 20150310182018) do
 
   create_table "bookmarks", force: true do |t|
     t.integer  "user_id",       null: false
@@ -25,6 +25,19 @@ ActiveRecord::Schema.define(version: 20150308002558) do
 
   add_index "bookmarks", ["user_id"], name: "index_bookmarks_on_user_id"
 
+  create_table "posts", force: true do |t|
+    t.string   "title",       default: "", null: false
+    t.string   "description"
+    t.string   "photo"
+    t.float    "lat"
+    t.float    "long"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "users_id"
+  end
+
+  add_index "posts", ["users_id"], name: "index_posts_on_users_id"
+
   create_table "searches", force: true do |t|
     t.text     "query_params"
     t.integer  "user_id"
@@ -34,5 +47,10 @@ ActiveRecord::Schema.define(version: 20150308002558) do
   end
 
   add_index "searches", ["user_id"], name: "index_searches_on_user_id"
+
+  create_table "users", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
