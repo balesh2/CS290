@@ -1,40 +1,41 @@
 <div class="navbar-right">
 <ul class="nav navbar-nav">
-<li>
-<%= link_to "About Us", about_us_path %>
-</li>
-<li>
-<% if current_model && current_model.admin? %>
-  <%= link_to "Admin Panel", admin_index_path %>
-<% end %>
-</li>
-<li>
-<% if has_model_authentication_provider? and current_model %>
-<li>
-<%= link_to t('blacklight.header_links.saved_searches'), saved_searches_path %>
-</li>
-<% end %>
-<li>
-<%= link_to t('blacklight.header_links.search_history'), search_history_path %>
-</li>
+  <li>
+    <%= link_to "About Us", about_us_path %>
+  </li>
+  <li>
+    <% if current_model && current_model.admin? %>
+      <%= link_to "Admin Panel", admin_index_path %>
+    <% end %>
+  </li>
+  <li>
+    <% if has_user_authentication_provider? and current_model %>
+      <li>
+        <%= link_to t('blacklight.header_links.saved_searches'), saved_searches_path %>
+      </li>
+    <% end %>
+  </li>
+  <li>
+    <%= link_to t('blacklight.header_links.search_history'), search_history_path %>
+  </li>
 </ul>
-<% if has_model_authentication_provider? %>
-<ul class="nav navbar-nav">
-<% if current_user %>
-<li>
-<%= link_to t('blacklight.header_links.logout'), destroy_model_session_path %>
-</li>
-<% unless current_model.to_s.blank? -%>
-<li>
-<%= link_to current_user, edit_model_registration_path %>
-</li>
-<% end %>
-<% else %>
-<li>
-<%= link_to t('blacklight.header_links.login'), new_model_session_path %>
-</li>
-<% end %>
-</ul>
+<% if has_user_authentication_provider? %>
+  <ul class="nav navbar-nav">
+    <% if current_user %>
+      <li>
+        <%= link_to t('blacklight.header_links.logout'), destroy_model_session_path %>
+      </li>
+      <% unless current_model.to_s.blank? -%>
+        <li>
+          <%= link_to current_user, edit_model_registration_path %>
+        </li>
+      <% end %>
+    <% else %>
+      <li>
+        <%= link_to t('blacklight.header_links.login'), new_model_session_path %>
+      </li>
+    <% end %>
+  </ul>
 <% end %>
 </div>
 
