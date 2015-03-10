@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150310182018) do
+ActiveRecord::Schema.define(version: 20150310190436) do
 
   create_table "bookmarks", force: true do |t|
     t.integer  "user_id",       null: false
@@ -29,11 +29,10 @@ ActiveRecord::Schema.define(version: 20150310182018) do
     t.string   "title",       default: "", null: false
     t.string   "description"
     t.string   "photo"
-    t.float    "lat"
-    t.float    "long"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "users_id"
+    t.string   "coords"
   end
 
   add_index "posts", ["users_id"], name: "index_posts_on_users_id"

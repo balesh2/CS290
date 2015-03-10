@@ -5,17 +5,23 @@ module MakeSearchable
     searchable :auto_index => true, :include => [:users, :posts]
 
     #Text
-    text "title"
-    text "description"
+    text :posts do
+      posts.map(&:title)
+      posts.map(&:description)
+      posts.map(&:photo)
+    end
     text :users do
       users.map(&:username)
     end
 
     #Facets
-    string :coords, :stored => true, :multiple => false do
-      coords
+    string :title, :stored => true, :multiple => false do
+      posts.map(&:title)
     end
-    string :creator, :stored => true, :multiple => false do
+    string :coords, :stored => true, :multiple => false do
+      posts.map(&:coords)
+    end
+    string :username, :stored => true, :multiple => false do
       users.map(&:username)
     end
 

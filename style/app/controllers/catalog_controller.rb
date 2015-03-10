@@ -17,11 +17,11 @@ class CatalogController < ApplicationController
 
     #Index Configuration
     #config.index.title_field = "title_ss"
-    config.add_index_field 'user_ss', :label => 'Creator'
+    config.add_index_field 'username_ss', :label => 'Creator'
     config.add_index_field 'photo_ss', :label => 'Photo'
     #Facet Configuration
     config.add_facet_field 'title_ss', :label => 'Post Title', :limit => 20
-    config.add_facet_field 'user_ss', :label => 'Creator', :limit => 20
+    config.add_facet_field 'username_ss', :label => 'Creator', :limit => 20
     #Map Configuration
     config.view.maps.type = "placename_coord"
     config.view.maps.bbox_field = "place_bbox"
@@ -40,7 +40,7 @@ class CatalogController < ApplicationController
       field.solr_parameters = { :qf => "user_text" }
     end
     #Show Configuration
-    config.add_show_field 'user_ss', :label => "Creator"
+    config.add_show_field 'username_ss', :label => "Creator"
     config.add_show_field 'description_ss', :label => "Description"
     config.add_show_field 'photo_ss', :label => "Photo"
   end
