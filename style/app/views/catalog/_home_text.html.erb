@@ -9,6 +9,11 @@
 <link href="bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <script src="jquery.js"></script>
+<style>
+#blacklight-map .leaflet-container {
+  height: 848px;
+}
+</style>
 </head>
 <body>
   <div class="row">
@@ -21,7 +26,7 @@
       <div class="row">
         <div class="col-xs-12"><h4>This webpage displays postings of photos of street fashion both on a map, and in list form.</h4></div>
       </div>
-      <div id="documents" style="height: 200px;" class="map">
+      <div id="documents" class="map">
         <%= render "map" %>
       </div>
     </div>
