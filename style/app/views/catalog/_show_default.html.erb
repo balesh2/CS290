@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="active"><a href="#photo-pane" role="tab" data-toggle="tab">Photo</a></li>
+      <li><a href="#map-pane" role="tab" data-toggle="tab">Map</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="photo-pane">
+        <div class="col-xs-12" >
+          <%= render :partial => "photo", :locals => {document: document} %>
+        </div>
+      </div>
+      <div class="tab-pane" id="map-pane">
+        <div class="col-xs-6">
+          <div class="map">
+            <%= render "map" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%# default partial to display solr document fields in catalog show view -%>
+<dl class="dl-horizontal  dl-invert">
+  <% document_show_fields(document).each do |solr_fname, field| -%>
+    <% if should_render_show_field?(document, field) %>
+    <dt class="blacklight-<%= solr_fname.parameterize %>"><%= render_document_show_field_label document, :field => solr_fname %></dt>
+  <dd class="blacklight-<%= solr_fname.parameterize %>"><%= render_document_show_field_value document, :field => solr_fname %></dd>
+<% end -%>
+<% end -%>
+</dl>
+

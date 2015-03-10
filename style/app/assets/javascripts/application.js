@@ -12,9 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= bootstrap
 //
 // Required by Blacklight-Maps
 //= require blacklight-maps
+//= require leaflet
+//= require leaflet.markercluster
+//= require L.Control.Sidebar
+//= require easyButton
 //
 // Required by Blacklight
 //= require blacklight/blacklight
