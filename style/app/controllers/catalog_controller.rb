@@ -16,7 +16,7 @@ class CatalogController < ApplicationController
     config.add_facet_fields_to_solr_request!
 
     #Index Configuration
-    #config.index.title_field = "title_ss"
+    config.index.title_field = "title_ss"
     config.add_index_field 'username_ss', :label => 'Creator'
     config.add_index_field 'photo_ss', :label => 'Photo'
     #Facet Configuration
