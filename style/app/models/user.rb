@@ -3,5 +3,4 @@ class User < ActiveRecord::Base
 
   include Blacklight::User
 
-  devise :database_authentication, :registerable, :recoverable, :rememberable, :trackable, :validatable
 end
