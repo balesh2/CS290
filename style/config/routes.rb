@@ -3,8 +3,6 @@ Rails.application.routes.draw do
   blacklight_for :catalog
   root to: "catalog#index"
 
-  devise_for :users
-
   get '/admin', :to => 'admin#index', :as => "admin_index"
 
   get '/about', :to => 'about#index', :as => "about_us"
