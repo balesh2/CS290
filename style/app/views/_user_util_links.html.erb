@@ -34,7 +34,7 @@
         </li>
       <% end %>
       <li>
-        <%= link_to t('blacklight.header_links.logout'), destroy_user_session_path %>
+      <%= link_to t('blacklight.header_links.logout'), destroy_user_session_path, :method => :delete %>
       </li>
     <% else %>
       <li>
