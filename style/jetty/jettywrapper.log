@@ -178,3 +178,13 @@
 1733561 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
 1749262 [qtp2038359753-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
 1749268 [qtp2038359753-19] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+7406772 [qtp2038359753-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=3 
+7406789 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+7421844 [qtp2038359753-18] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+7421852 [qtp2038359753-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=3 
+7776775 [qtp2038359753-18] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=1 
+7776779 [qtp2038359753-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=1 
+7786977 [qtp2038359753-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+7786984 [qtp2038359753-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=2 
+7822671 [qtp2038359753-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={start=0&qt=search&wt=ruby&rows=10000} hits=0 status=0 QTime=2 
+7822682 [qtp2038359753-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={qt=search&wt=ruby&rows=10} hits=0 status=0 QTime=3 
