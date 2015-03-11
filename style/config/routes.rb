@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get '/help', :to => 'help#index', :as => "help"
 
+  resources :posts
   namespace :admin do
     resources :users
   end
