@@ -1,0 +1,11 @@
+<% @posts.each do |p| %>
+  <div class="panel panel-default" id="post-<%= p.id %>">
+    <div class="panel panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-<%= p.id %>">
+        <%= p.title %>
+        <%= link_to "Edit", edit_post_path(p), :class => "pull-right", :style => "padding-left: 10px;" %>
+        <%= link_to "Delete", post_path(p), :class => "pull-right", :method => :delete, :data=> {:confirm => "Are you sure you want to delete this post?"} %>
+      </a>
+    </div>
+  </div>
+<% end %>
