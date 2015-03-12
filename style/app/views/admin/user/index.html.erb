@@ -1,0 +1,12 @@
+<h1>Edit Users</h1>
+
+<% @user.each do |u| %>
+  <div class="panel panel-default">
+    <div class="panel panel-heading">
+      <%= u.email %>
+      <%= link_to "Edit", edit_admin_user(u.id) %>
+    </div>
+    <div class="panel panel-body">
+      <%= "Admin" if u.admin %>
+    </div>
+  </div>

@@ -27,7 +27,24 @@
         <div class="col-xs-12"><h4>This webpage displays postings of photos of street fashion both on a map, and in list form.</h4></div>
       </div>
       <div id="documents" class="map">
-        <%= render "map" %>
+        <% render "map" %>
+      </div>
+      <div id="documents" class="list">
+        <% @posts.each do |post| %>
+          <div class="panel panel-default">
+            <div class="panel panel-heading">
+              <%= post.title %>
+            </div>
+            <div class="panel panel-body">
+              <% if post.description != ""%>
+                <p>Description: <%= post.description %></p>
+              <% end %>
+              <% if post.photo != "" %>
+                <%= image_tag post.photo, :style => "width: 800px;" %>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
       </div>
     </div>
   </body>

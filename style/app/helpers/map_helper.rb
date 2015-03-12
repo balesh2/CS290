@@ -8,7 +8,7 @@ module MapHelper
   end
 
   def map_results
-    @map_results || @document_list
+    @map_results = Post.all
   end
 
   def map_counter(document)

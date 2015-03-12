@@ -20,13 +20,14 @@ class CatalogController < ApplicationController
     config.add_index_field 'title_vern_display', :label => "Title: "
     config.add_index_field 'username_ss', :label => 'Creator'
     config.add_index_field 'photo_ss', :label => 'Photo'
+    config.add_index_field 'coords_ss', :label  => "Coordinates"
     ##Facet Configuration
     #config.add_facet_field 'title', :label => 'Post Title', :limit => 20
     #config.add_facet_field 'username', :label => 'Creator', :limit => 20
     #Map Configuration
     config.view.maps.type = "placename_coord"
     config.view.maps.bbox_field = "place_bbox"
-    config.view.maps.placename_coords_field = "coords_sms"
+    config.view.maps.placename_coords_field = "coords_ss"
     config.view.maps.tileurl = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     config.view.maps.attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
     config.view.maps.placename_coord_delimiter = '-|-'
@@ -44,6 +45,10 @@ class CatalogController < ApplicationController
     config.add_show_field 'username_ss', :label => "Creator"
     config.add_show_field 'description_ss', :label => "Description"
     config.add_show_field 'photo_ss', :label => "Photo"
+  end
+
+  def index
+    @posts = Post.all
   end
 
   def show
