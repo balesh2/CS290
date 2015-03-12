@@ -33,7 +33,8 @@
         <% @posts.each do |post| %>
           <div class="panel panel-default">
             <div class="panel panel-heading">
-              <%= post.title %>
+              <h3 style="margin-top: 10px;"><%= post.title %></h3>
+              <div>Posted by: <%= User.find(post.users_id).username %></div>
             </div>
             <div class="panel panel-body">
               <% if post.description != ""%>
