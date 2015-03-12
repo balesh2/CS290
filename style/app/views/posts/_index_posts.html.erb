@@ -10,7 +10,7 @@
     <div class="panel panel-body">
       <p><%= p.description %><p>
       <% if p.photo != ""%>
-        <%= image_tag p.photo %>
+        <%= image_tag p.photo, :style => "width: 600px;" %>
       <% end %>
     </div>
   </div>
